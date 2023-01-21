@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Manipulaciondel DOM basica - curso practico JS</title>
+</head>
+<body>
+    <h1>Manipulacion del DOM basica</h1>
+
+    <p>Esto es un parrafo</p>
+    <p class="parrafito">Esto es un parrafo con clase</p>
+    <p id="pid">Esto es un parrafo con ID</p>
+
+    <form id="form">
+        <input id="calculo1" placeholder="Escribe algo aqui"/>
+        <input onchange="console.log('cambio el input')" id="calculo2" placeholder="Escribe algo aqui"/>
+        <button id="btnCalcular">Calcular</button>
+    </form>
+
+    <p id="result"></p>
+
+    <!-- linea para "conectar" html con archivo js -->
+    <script src="./script.js"></script>
+</body>
+</html>
